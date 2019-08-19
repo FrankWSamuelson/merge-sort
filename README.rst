@@ -5,7 +5,7 @@ Merge Sort
 
 |Python 3.6,3.7| |rtd-badge| |Maintenance|
 
-|Codacy Badge| |Open Source Love png2|
+|Codacy Badge| |Open Source Love png2| |licence|
 
 .. figure:: https://github.com/Neywiny/merge-sort/blob/master/repository-pic.png
    :alt: alt text
@@ -206,6 +206,13 @@ Graphs and Where to Find Them
    ``python3 DylSort.py 3 <overlapping (defualt True)>``
 -  ROC curves for merge sort vs ELO -> ``python3 elo.py``
 
+Disclaimer
+----------
+
+This software and documentation (the "Software") were developed at the Food and Drug Administration (FDA) by employees of the Federal Government in the course of their official duties. Pursuant to Title 17, Section 105 of the United States Code, this work is not subject to copyright protection and is in the public domain. Permission is hereby granted, free of charge, to any person obtaining a copy of the Software, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, or sell copies of the Software or derivatives, and to permit persons to whom the Software is furnished to do so. FDA assumes no responsibility whatsoever for use by other
+parties of the Software, its source code, documentation or compiled executables, and makes no guarantees, expressed or implied, about its quality, reliability, or any other characteristic. Further, use of this code in no way implies endorsement by the FDA or confers any advantage in regulatory decisions. Although this software can be redistributed and/or modified freely, we ask that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.
+
+
 .. |forthebadge made-with-python| image:: http://ForTheBadge.com/images/badges/made-with-python.svg
    :target: https://www.python.org/
 .. |Codacy Badge| image:: https://api.codacy.com/project/badge/Grade/96b3634f1abe48dc93b5ac19307bb394
@@ -218,3 +225,5 @@ Graphs and Where to Find Them
    :target: https://github.com/ellerbrock/open-source-badges/
 .. |rtd-badge| image:: https://readthedocs.org/projects/merge-sort/badge/?version=latest&style=for-the-badge
    :target: https://merge-sort.readthedocs.io/?badge=latest
+.. |licence| image:: https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg
+   :target: http://creativecommons.org/publicdomain/zero/1.0/
