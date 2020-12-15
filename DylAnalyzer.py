@@ -199,7 +199,7 @@ def analyzeReaderStudies(resultsFile, directory, n0):
 	PCss = list()
 	with open("results.json") as f:
 		results = json.load(f)
-	results = {"Reader A":("resGabi/scaleGabi.csv1565102893.2022426", "resGabi/log2.csv", "resGabi/rocs", "resGabi/compGabi.csv"), "Reader B":("resFrank/scaleFrank.csv1565098562.1623092", "resFrank/log2.csv", "resFrank/rocs", "resFrank/results.csv"), "Reader C":("resDylan/scaleDylan2.csv", "resDylan/log2.csv", "resDylan/rocs", "resDylan/compDylan.csv")}
+	results = {"Reader A":("resRdrA/scaleRdrA.csv1565102893.2022426", "resRdrA/log2.csv", "resRdrA/rocs", "resRdrA/compRdrA.csv"), "Reader B":("resRdrB/scaleRdrB.csv1565098562.1623092", "resRdrB/log2.csv", "resRdrB/rocs", "resRdrB/results.csv"), "Reader C":("resRdrC/scaleDylan2.csv", "resRdrC/log2.csv", "resRdrC/rocs", "resRdrC/compDylan.csv")}
 	readers = results.keys()
 	for reader, val in results.items():
 		AUCs = list()
